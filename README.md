@@ -6,7 +6,9 @@ It addresses common scenarios when it comes to making `git` data useful, includi
 
 ## Models
 
-### Commits by Author
+### 👤 Commits by Author
+
+Commits, files modified, additions and deletions by author (over various time groupings).
 
 | Name                                    | Description                 |
 |-----------------------------------------|-----------------------------|
@@ -15,7 +17,9 @@ It addresses common scenarios when it comes to making `git` data useful, includi
 | `_dbt_mergestat_commit_authors_monthly` | Monthly commit author stats |
 | `_dbt_mergestat_commit_authors_yearly`  | Yearly commit author stats  |
 
-### File Stats
+### 📄 File Stats
+
+Commits, additions, deletions, etc. for a given file (over various time groupings).
 
 | Name                                | Description        |
 |-------------------------------------|--------------------|
@@ -24,7 +28,9 @@ It addresses common scenarios when it comes to making `git` data useful, includi
 | `_dbt_mergestat_file_stats_monthly` | Monthly file stats |
 | `_dbt_mergestat_file_stats_yearly`  | Yearly file stats  |
 
-### File and Author Stats
+### 💻 File and Author Stats
+
+Commits, additions, deletions, etc. for a given file **and author** (over various time groupings).
 
 | Name                                       | Description               |
 |--------------------------------------------|---------------------------|
@@ -33,7 +39,7 @@ It addresses common scenarios when it comes to making `git` data useful, includi
 | `_dbt_mergestat_file_author_stats_monthly` | Monthly file author stats |
 | `_dbt_mergestat_file_author_stats_yearly`  | Yearly file author stats  |
 
-### Weekly Coding Days
+### 📊 Weekly Coding Days
 
 | Name                                | Description
 |-------------------------------------|------------
